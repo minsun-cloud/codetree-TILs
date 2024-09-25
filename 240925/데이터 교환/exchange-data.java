@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        int a=5, b=6, c=7;
+        int t = b;
+        int p = c;
+        b=a;
+        c=t;
+        a=p;
+        System.out.printf("%d\n%d\n%d", a,b,c);
+    }
+}
