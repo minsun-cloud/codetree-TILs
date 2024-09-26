@@ -1,4 +1,3 @@
-arr=input().splitlines()
-a=int(arr[0])
-b=int(arr[1])
+a=int(input())
+b=int(input())
 print(a*b)
